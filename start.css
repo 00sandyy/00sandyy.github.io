@@ -1,5 +1,6 @@
 /* *{
     margin: 0px;
+ 
     padding: 0px;
     box-sizing: border-box;
 } */
@@ -11,8 +12,9 @@ body{
     height: 100vh;
     background: linear-gradient(
     to right,
-    pink 0%,
-    pink 50%,
+    
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 50%,
     paleturquoise 50%,
     paleturquoise 100%
   );
@@ -97,7 +99,7 @@ img{
 }
 
 .subtitle-mainhead{
-    color: #EB455F;
+    color: #ffffff;
 }
 
 .subtitle-intro{
@@ -111,7 +113,7 @@ img{
 .details{
     margin-top: 20px;
     /* background-color:#22A39F;  */
-    background-color: #FF597B;
+    background-color: #ffffff;
     color: white;
     text-decoration: none;
     border: none;
