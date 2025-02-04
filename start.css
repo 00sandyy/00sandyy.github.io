@@ -86,6 +86,12 @@ img{
     justify-content: left;
     margin-left: 30px;
 }
+ .photo img {
+        width: 500px;  /* Adjust width */
+        height: 500px; /* Adjust height */
+        object-fit: cover; /* Ensures the image fills the dimensions */
+        border-radius: 10px; /* Optional: Rounds the corners */
+    }
 
 .photo{
     display: flex;
